@@ -1,0 +1,125 @@
+html{
+    background: #b6d7e9
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 20px solid #242424;
+    border-bottom: 20px solid #242424;
+    background: #fff;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#navButtons{
+    background: #242424;
+    border-top: 10px solid rgb(160, 160, 160);
+    border-bottom: 5px solid rgb(160, 160, 160);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: sticky;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+    box-shadow:#242424 0 5px 8px;
+}
+.navButton{
+    background: #5eb2df;
+    top: 0;
+    border: 5px solid #007CBE;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+#desc{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    border-bottom: 3px solid #242424;
+    text-align: center;
+}
+
+#upload{
+    
+    border-top: 10px solid rgb(160, 160, 160);
+    border-bottom: 5px solid rgb(160, 160, 160);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow:#242424 0 5px 8px;
+    text-align: center;
+}
+#uploadForm{
+    background:#5eb2df;
+    padding: 5px;
+}
+#shareLabel{
+    background: #fff;
+    padding: 15px;
+    border: 2.5px solid #242424;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 1.5em;
+}
+#shareFile{
+    margin: 5px;
+    font-style: italic;
+    font-size: 0.8em;
+}
+.subButton{
+    border: 3px solid #242424;
+    border-radius: 20px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+}
+
+#link{
+    margin-top: 30px;
+    text-align: center;
+}
+#linkField{
+    border: 2.5px solid #242424;
+    font-size: 1.3em;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20%;
+}
+
+article{
+    padding: 20px;
+    border-bottom: 3px solid #242424;
+}
+h1{
+    font-size: 2em;
+    color: #007CBE;
+}
+h2{
+    font-size: 20px;
+}
+
+#aboutMe{
+    padding-bottom: 140px;
+    border-bottom: 0px;
+}
+#me{
+    float: right;
+}

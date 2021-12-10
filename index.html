@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>File Link</title>
+</head>
+<body>
+    <img src="FileLink_Logo.png" alt="File Link's logo." id="logo">
+    <div id="navButtons">
+        <button type="button" onclick="location.href='index.html'" class="navButton" id="nb1">Home</button>
+        <button type="button" onclick="location.href='about.html'" class="navButton" id="nb2">About</button>
+    </div>
+    <div id="desc">
+        <p>File Link is a free file sharing website. </p>
+        <p>Simply upload a file below and press the submit button. A shareable link will be generating containing a download for your file. </p>
+        <p>You can send your link to colleagues and friends for easy file distribution.</p>
+    </div>
+    <div id="upload">
+        <form id="uploadForm">
+            <label for="shareFile" id="shareLabel">Upload a file to share: <input type="file" id="shareFile" name="shareFile"></label>
+            <button type="submit" class="subButton">Submit</button>
+        </form>
+    </div>
+    <div id="link">
+        <input type="text" value="Link will appear here..." id="linkField">
+        <button onclick="copy()" class="subButton">Copy to Clipboard</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
